@@ -1,0 +1,347 @@
+/* CSS RESET */
+
+/* CSS SAYA */
+.container {
+  background-color: #f5f8ff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.header .gambar {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.header .gambar img {
+  width: 20rem;
+}
+
+.header h1,
+p {
+  text-align: center;
+}
+
+.header h1 {
+  font-weight: bold;
+  line-height: 5px;
+}
+.header p {
+  margin: 0px 2px;
+}
+
+/* Bagian 1 */
+.bagian1 {
+  width: 100%;
+  margin: auto;
+}
+
+.bagian1 h2 {
+  text-align: center;
+}
+
+.isiBagian1 {
+  margin: 10px auto;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.isiBagian1 .gambar img {
+  border-radius: 0 7px 7px 0;
+  width: 15rem;
+  box-shadow: 1px 2px 6px;
+}
+
+.isiBagian1 .tentangSaya {
+  padding-left: 40px;
+}
+
+.tentangSaya {
+  align-self: flex-start;
+}
+
+.tentangSaya p {
+  text-align: justify;
+}
+
+.tentangSaya button {
+  background-color: #1c477f;
+  padding: 10px 20px 10px 20px;
+  border-radius: 80px;
+  border: none;
+  color: wheat;
+}
+
+/* Bagiam 2 */
+.bagian2 {
+  width: 50rem;
+  margin: auto;
+}
+
+.bagian2 h2 {
+  text-align: center;
+}
+
+.bagian2 .isiBagian2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.bagian2 .isiBagian2 .kotak {
+  width: 13rem;
+  height: 13rem;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.isiBagian2 .icon {
+  width: 7rem;
+  height: 7rem;
+  background-color: #1c477f;
+  border-radius: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.isiBagian2 .icon img {
+  width: 7rem;
+  position: absolute;
+  margin-top: -20px;
+}
+.isiBagian2 .kotak p {
+  text-align: center;
+  color: #1c477f;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 0.5rem;
+}
+
+/* Bagian 3 */
+.bagian3 {
+  width: 50rem;
+  margin: auto;
+}
+
+.bagian3 h2 {
+  text-align: center;
+}
+
+.bagian3 .isiBagian3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.bagian3 .projek {
+  width: 15rem;
+  height: 15rem;
+  margin: 5px;
+  background-image: url("../img/projek1.jpg");
+  background-size: cover;
+  border-radius: 6px;
+  box-shadow: 4px 5px 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+}
+
+.isiBagian3 .projek .tajuk {
+  width: 15rem;
+  height: 4.3rem;
+  background-color: #1c477f;
+  line-height: 1px;
+}
+
+.isiBagian3 .tajuk .utama {
+  color: #f5f8ff;
+  padding-left: 0.5rem;
+  padding-top: 0.3rem;
+  font-size: 0.8rem;
+}
+
+.isiBagian3 .tajuk .pilihan {
+  width: 100%;
+  padding-left: 0.5rem;
+}
+
+.isiBagian3 .tajuk .pilihan a {
+  color: #f5f8ff;
+  text-decoration: none;
+}
+
+.isiBagian3 .tajuk .pilihan a:hover {
+  text-decoration: underline;
+}
+
+/* Bagian 4 */
+
+.bagian4 {
+  width: 50rem;
+  margin: 60px auto;
+}
+
+.bagian4 h2 {
+  text-align: center;
+}
+
+.bagian4 .partner {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.bagian4 .partner .logo {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100%;
+  display: flex;
+  margin: auto;
+}
+
+.bagian4 .partner .logo h6 {
+  align-self: center;
+  margin: auto;
+}
+
+.bagian4 .partner .klien a {
+  text-decoration: none;
+  color: rgb(76, 87, 98);
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.bagian4 .partner .klien {
+  width: 14rem;
+}
+
+.bagian4 .partner .klien .link {
+  display: flex;
+  justify-content: center;
+}
+
+.bagian4 .partner .klien a:hover {
+  text-decoration: underline;
+  transition: ease-in 0.2s;
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 650px) {
+  .bagian1,
+  .isiBagian1 {
+    width: 100%;
+    margin: auto;
+  }
+  .isiBagian1 .gambar {
+    width: 10%;
+    box-sizing: border-box;
+    background-image: url(../img/image1.jpg);
+
+    border-radius: 7px 0 0 7px;
+  }
+  .isiBagian1 .tentangSaya {
+    width: 90%;
+    border: 0px solid #1c477f;
+    box-sizing: border-box;
+  }
+  .isiBagian1 .gambar img {
+    display: none;
+  }
+
+  .isiBagian1 .tentangSaya {
+    padding: 15px;
+  }
+
+  .tentangSaya {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .tentangSaya p {
+    text-align: justify;
+  }
+
+  .tentangSaya button {
+    background-color: #1c477f;
+    padding: 10px 20px 10px 20px;
+    border-radius: 80px;
+    border: none;
+    color: white;
+  }
+
+  /* Bagiam 2 */
+  .bagian2 {
+    width: 100%;
+    margin: 20px auto;
+    margin-bottom: 50px;
+  }
+
+  .bagian2 h2 {
+    text-align: center;
+  }
+
+  .bagian2 .isiBagian2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .bagian2 .isiBagian2 .kotak {
+    width: 8rem;
+    height: 8rem;
+    margin: 5px;
+    box-sizing: border-box;
+  }
+
+  /* Bagian 3 */
+  .bagian3 {
+    width: 100%;
+  }
+
+  .bagian3 h2 {
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .bagian3 .projek {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .isiBagian3 .projek .tajuk {
+    width: 9rem;
+    height: 2.5rem;
+  }
+
+  .isiBagian3 .tajuk .utama {
+    color: #f5f8ff;
+    padding-left: 0.5rem;
+    padding-top: 0.3rem;
+    font-size: 0.5rem;
+  }
+
+  .isiBagian3 .tajuk .pilihan {
+    width: 100%;
+    padding-left: 0.5rem;
+  }
+
+  .isiBagian3 .tajuk .pilihan a {
+    color: #f5f8ff;
+    text-decoration: none;
+    font-size: 0.7rem;
+  }
+
+  .isiBagian3 .tajuk .pilihan a:hover {
+    text-decoration: underline;
+  }
+
+  .bagian4 {
+    width: 100%;
+  }
+}
